@@ -4,8 +4,6 @@ package com.jys.practice.easy;
  * using mod 10 to grab least significant digit. 
  * divide by 10 to reduce places.
  * repeat until 0.
- * 
- * @author js044486
  *
  */
 public class ReverseInteger {
