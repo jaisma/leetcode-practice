@@ -8,8 +8,6 @@ import java.util.Map;
  * use it as a look up while iterating. 
  * add to map if it doesn't exist. 
  * return if complement exists.
- * 
- * @author js044486
  *
  */
 public class TwoSum {
