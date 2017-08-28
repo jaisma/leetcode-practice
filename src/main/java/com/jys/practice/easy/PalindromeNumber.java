@@ -4,8 +4,6 @@ package com.jys.practice.easy;
  * check half of the number to avoid overflow. 
  * compare it with reversed input.
  * if equals return true.
- * 
- * @author js044486
  *
  */
 public class PalindromeNumber {
