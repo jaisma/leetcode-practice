@@ -1,12 +1,12 @@
 package com.jys.practice;
 
-import com.jys.practice.easy.MaxKSum;
+import com.jys.practice.easy.MaxDifference;
 import com.jys.practice.easy.PalindromeNumber;
 import com.jys.practice.easy.ReverseInteger;
 import com.jys.practice.easy.RomanToInteger;
 import com.jys.practice.easy.TwoSum;
 import com.jys.practice.medium.LongestSubstringWORepeatingChar;
-import com.jys.practice.medium.MaxDifference;
+import com.jys.practice.medium.MaxKSum;
 
 public class Main {
 

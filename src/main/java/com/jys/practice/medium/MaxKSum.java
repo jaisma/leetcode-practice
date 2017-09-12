@@ -1,4 +1,4 @@
-package com.jys.practice.easy;
+package com.jys.practice.medium;
 
 import java.util.ArrayList;
 import java.util.HashMap;
