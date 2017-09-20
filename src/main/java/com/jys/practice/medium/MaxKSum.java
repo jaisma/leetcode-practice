@@ -53,4 +53,13 @@ public class MaxKSum {
 
 		return sum;
 	}
+
+	/**
+	 * going to try to implement using count sort
+	 * 
+	 */
+	public int getMaxSumSort(int[] arr, int k) {
+		
+		return 0;
+	}
 }

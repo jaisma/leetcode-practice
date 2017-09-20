@@ -1,4 +1,4 @@
-package com.jys.practice.medium;
+package com.jys.practice.easy;
 
 /**
  * Given int array, find max difference between any two elements.
