@@ -7,6 +7,7 @@ import java.util.Stack;
 public class MaxDepthBinaryTree {
 
 	public class TreeNode {
+		
 		int val;
 		TreeNode left;
 		TreeNode right;
@@ -23,7 +24,7 @@ public class MaxDepthBinaryTree {
 
 		return 1 + Math.max(maxDepthRecursive(root.left), maxDepthRecursive(root.right));
 	}
-
+	
 	public int maxDepthDFS(TreeNode root) {
 		if (root == null) {
 			return 0;

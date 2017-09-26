@@ -10,12 +10,14 @@ public class CountPrimes {
 		boolean[] f = new boolean[n];
 		int count = n / 2;
 
-		for (int i = 3; i * i < n; i += 2) { // check if prime
+		for (int i = 3; i * i <= n; i += 2) { // check if prime
 			if (f[i]) { // i'th index set to non prime by next for loop. skip
 				continue;
 			}
 
 			for (int j = i * i; j < n; j += 2 * i) { // i dont understand this. why 2 * i?
+				// both i and j are odd, then i + j is even which must not be a prime number. 
+				// Only j (odd) + 2 * i (even) can be an odd number.
 				if (!f[j]) {
 					--count;
 					f[j] = true;
@@ -24,7 +26,7 @@ public class CountPrimes {
 		}
 		return count;
 	}
-
+	
 	public int countPrimesBruteForce(int n) {
 		int count = 0;
 		for (int i = 0; i < n; ++i) {

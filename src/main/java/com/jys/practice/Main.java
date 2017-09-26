@@ -1,15 +1,29 @@
 package com.jys.practice;
 
-import com.jys.practice.medium.SpiralMatrix;
+import com.jys.practice.medium.MaxAreaBar;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		SpiralMatrix spiralMatrix = new SpiralMatrix(); 
-		int[][] matrix = { { 1, 2, 3, 0}, { 4, 5, 6, 0 }, { 7, 8, 9, 0 }, { 10, 11, 12, 0 } };
-		System.out.println(spiralMatrix.spiralOrder(matrix));
-		System.out.println(spiralMatrix.spiralOrderCounter(matrix));
+		MaxAreaBar maxAreaBar = new MaxAreaBar();
+		int[] maxAreaBarTest = new int[] { 4, 4, 4, 4, 4, 4, 1, 7, 6, 5, 4, 3 };
+		int maxAreaBarResult = maxAreaBar.maxArea(maxAreaBarTest);
+		System.out.println(maxAreaBarResult);
+//		int[] maxAreaBarTestII = new int[] { 5, 4, 3, 9, 4, 100, 100, 0, 2, 0, 5 };
+//		System.out.println(maxAreaBar.maxArea(maxAreaBarTestII));
+		
+		
+//		JumpGame jumpGame = new JumpGame();
+//		int[] jumpGameTest = new int[] { 9, 4, 2, 1, 0, 2, 0 };
+//		boolean test = jumpGame.canJump(jumpGameTest);
+//		System.out.println(test);
+//		
+		
+//		SpiralMatrix spiralMatrix = new SpiralMatrix(); 
+//		int[][] matrix = { { 1, 2, 3, 0}, { 4, 5, 6, 0 }, { 7, 8, 9, 0 }, { 10, 11, 12, 0 } };
+//		System.out.println(spiralMatrix.spiralOrder(matrix));
+//		System.out.println(spiralMatrix.spiralOrderCounter(matrix));
 		
 //		
 //		CountPrimes countPrimes = new CountPrimes();
