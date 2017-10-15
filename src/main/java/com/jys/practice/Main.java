@@ -1,15 +1,33 @@
 package com.jys.practice;
 
-import com.jys.practice.medium.MaxAreaBar;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		MaxAreaBar maxAreaBar = new MaxAreaBar();
-		int[] maxAreaBarTest = new int[] { 4, 4, 4, 4, 4, 4, 1, 7, 6, 5, 4, 3 };
-		int maxAreaBarResult = maxAreaBar.maxArea(maxAreaBarTest);
-		System.out.println(maxAreaBarResult);
+//		RegularExpressionMatching regularExpressionMatching = new RegularExpressionMatching();
+		
+//		String text = "aab";
+//		String pattern = "c*a*b";
+//		System.out.println(regularExpressionMatching.isMatch(text, pattern));
+//		System.out.println(regularExpressionMatching.count);
+		
+		List<Integer> testing = List.of(1, 2, 3, 4, 5 ,6);
+		List<Integer> wow = new ArrayList<>();
+		wow.add(1);
+		wow.add(2);
+		wow.add(3);
+		wow.add(4);
+		Collections.rotate(wow, 3);
+		System.out.println(wow.toString());
+		
+//		MaxAreaBar maxAreaBar = new MaxAreaBar();
+//		int[] maxAreaBarTest = new int[] { 4, 4, 4, 4, 4, 4, 1, 7, 6, 5, 4, 3 };
+//		int maxAreaBarResult = maxAreaBar.maxArea(maxAreaBarTest);
+//		System.out.println(maxAreaBarResult);
 //		int[] maxAreaBarTestII = new int[] { 5, 4, 3, 9, 4, 100, 100, 0, 2, 0, 5 };
 //		System.out.println(maxAreaBar.maxArea(maxAreaBarTestII));
 		
