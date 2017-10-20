@@ -50,14 +50,11 @@ public class JumpGame {
 		int lastPos = arr.length - 1;
 		for (int i = arr.length - 1; i >= 0; --i) {
 			if (i + arr[i] >= lastPos) {
-				System.out.printf(
-						"Is current index: %d + value: %d greater than or equal to last good position: %d ?\n", i,
-						arr[i], lastPos);
+				//System.out.printf("Is current index: %d + value: %d greater than or equal to last good position: %d ?\n", i, arr[i], lastPos);
 				lastPos = i;
-				System.out.println("Yes, updating last good position to: " + lastPos);
+				//System.out.println("Yes, updating last good position to: " + lastPos);
 			} else {
-				System.out.printf("Current index: %d + value: %d is smaller than last good position: %d ?\n", i, arr[i],
-						lastPos);
+//				System.out.printf("Current index: %d + value: %d is smaller than last good position: %d ?\n", i, arr[i], lastPos);
 			}
 		}
 		return lastPos == 0;

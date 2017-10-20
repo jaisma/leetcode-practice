@@ -23,11 +23,9 @@ package com.jys.practice.hard;
  *        QUIZ
  * 
  * 
- * @author js044486
- *
  */
-public class Boggle {
-
+public class BoggleII {
+	
 	public boolean isValidWord(String word, String[] dictionary) {
 		for (String s : dictionary) {
 			if (word.equals(s)) {
