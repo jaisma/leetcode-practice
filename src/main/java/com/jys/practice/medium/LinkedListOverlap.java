@@ -43,7 +43,7 @@ public class LinkedListOverlap {
 			}
 		}
 
-		while (first != second && (first.next != null || second.next != null)) {
+		while (first != second && first != null && second != null) {
 			first = first.next;
 			second = second.next;
 		}
@@ -53,6 +53,15 @@ public class LinkedListOverlap {
 	
 	public void overlappingWithCycle() {
 		
+		// store the start of cycle if any
+		
+		// check for both cycle or none cycle
+		
+		// if both cycle, use overlapping above.
+		
+		// if both cycle, do while temp - temp.next while temp != l1 and l2
+		
+		// if l1 and l2 do not end in the same cyucle, temp != l1, return null. cycles are disjoint.
 	}
 	
 	
