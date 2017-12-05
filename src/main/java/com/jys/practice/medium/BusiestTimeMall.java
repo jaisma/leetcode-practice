@@ -62,7 +62,8 @@ public class BusiestTimeMall {
 	public int findBusiestPeriod(int[][] data) {
 		//TODO: work on it
 
-		int maxPeople = 0, maxTimeStamp = data[0][0];
+		int maxPeople = 0;
+		int maxTimeStamp = data[0][0];
 		int lastTimeStamp = data[0][0];
 		int totalNoOfPeopleInMall = 0;
 

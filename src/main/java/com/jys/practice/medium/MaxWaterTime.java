@@ -3,23 +3,21 @@ package com.jys.practice.medium;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.jys.practice.Main.WaterNode;
-
 public class MaxWaterTime {
 
-//	public class WaterNode {
-//		public int val;
-//		public WaterNode[] children;
-//		
-//		public WaterNode(int val) {
-//			this.val = val;
-//			this.children = null;
-//		}
-//		
-//		public WaterNode() {
-//			
-//		}
-//	}
+	public class WaterNode {
+		public int val;
+		public WaterNode[] children;
+
+		public WaterNode(int val) {
+			this.val = val;
+			this.children = null;
+		}
+
+		public WaterNode() {
+
+		}
+	}
 
 	public int maxTime(WaterNode root) {
 
@@ -43,8 +41,8 @@ public class MaxWaterTime {
 	}
 
 }
-// 2d, 0e, 2f 		1g, 1h
-// 3b 			3c
+// 2d, 0e, 2f 1g, 1h
+// 3b 3c
 // 3a
 
 /**

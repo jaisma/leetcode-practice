@@ -32,4 +32,5 @@ public class FindMinRotatedArray {
 
 		return arr[start];
 	}
+	
 }

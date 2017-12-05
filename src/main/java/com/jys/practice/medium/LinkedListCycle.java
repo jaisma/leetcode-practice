@@ -50,4 +50,33 @@ public class LinkedListCycle {
 		return null;
 	}
 
+	public ListNode<Integer> hasCycleTest(ListNode<Integer> head) {
+		
+		ListNode<Integer> slow = head;
+		ListNode<Integer> fast = head;
+		
+		while (slow != null && fast != null) {
+			
+			slow = slow.next;
+			fast = fast.next.next;
+			
+			if (slow == fast) {
+				
+				int cycleLength = 0;
+				
+				do {
+					fast = fast.next;
+					cycleLength++;
+					
+				} while (slow != fast);
+			}
+			
+		}
+		
+		return null;
+		
+		
+	}
+
+
 }
